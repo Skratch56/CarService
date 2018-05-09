@@ -1,0 +1,167 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+
+#sidebar{
+	position: fixed;
+	width: 200px;
+	height: 100%;
+	background: #151719;
+	left: -200px;
+	transition: all 500ms linear;
+}
+
+#sidebar.active{
+	left: 0px;
+}
+
+#sidebar ul li{
+	color: rgba(230,230,230,0.9);
+	list-style: none;
+	padding: 15px 10px;
+	border-bottom: 1px solid rgba(100,100,100,0.3)
+}
+
+#sidebar .toggle-btn {
+	position: absolute;
+	left: 230px;
+	top: 20px;
+}
+
+#sidebar .toggle-btn span {
+	display: block;
+	width: 30px;
+	height: 5px;
+	background: #151719;
+	margin: 5px 0px;
+}
+
+body{
+	/*background-image: url("imgs/a3.jpg");*/
+	background-repeat: no-repeat;
+}
+
+.navbar{
+	min-height: 90px;	
+}
+
+@media (min-width: 1600px) {
+    .nav .breadcrumb {
+        float: right;
+        margin: 0px 0px;
+    }
+}
+
+#navigationbar{
+	min-width: 98%;
+}
+
+#services-container{
+	margin-top: 10px;
+	/*background-color: #FFFFFF;*/
+	text-align: center;
+}
+
+#services{
+	padding-left: 50px;
+	padding-top: 20px;
+}
+
+.padbottomtwenty{
+	padding-bottom: 20px;
+}
+
+.imgWrap {
+  position: relative;
+  height: 207px;
+  width: 260px;
+}
+
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+
+
+  visibility: hidden;
+  opacity: 0;
+
+  /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+form button {
+	/*height: 50px;*/
+	line-height: 50px;
+	width: 300px;
+}
+
+#staffno{
+	/*height: 10px;*/
+	line-height: 450px;
+	width: 300px;
+	text-align: center;
+}
+
+#password{
+	/*height: 10px;*/
+	line-height: 450px;
+	width: 300px;
+	text-align: center;
+}
+
+#modalempno{
+	/*height: 10px;*/
+	line-height: 450px;
+	width: 300px;
+	text-align: center;
+}
+
+.padding-bottom-150{
+    padding-bottom: 150px;  
+}
+
+.margin-bottom-400{
+    margin-bottom: 400px;  
+}
+
+.padding-bottom-20{
+	padding-bottom: 20px;	
+}
+
+.padding-top-10{
+	padding-top: 10px;	
+}
+
+.padding-top-20{
+	padding-top: 20px;	
+}
+
+.padding-top-5{
+	padding-top: 5px;	
+}
+
+#marg-top-50{
+	margin-top: 50px;
+}
+
+#marg-top-10{
+	margin-top: 10px;
+}
+
+

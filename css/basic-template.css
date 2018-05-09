@@ -1,0 +1,130 @@
+body
+{
+	min-height: 600px;
+	background-color: #FFFFFF;
+	background-image: url("../imgs/blue-circles-dots.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/*background-color: #FF5722;*/
+}
+
+body a{
+	text-align: center;
+}
+
+nav{
+}
+
+.padding-top-10
+{
+	padding-top: 0px;	
+}
+
+@media(max-width: 768px){
+	.input-group{
+		margin-bottom:0px;
+		max-height: 50px;
+	}
+}
+
+js:
+$('#topnavbar').affix({
+    offset: {
+        top: $('#banner').height()
+    }   
+});
+
+.navbar
+{
+	
+	
+}
+
+.navbar-header
+{
+	
+	min-height: 5px;
+}
+
+
+.navbar-default{
+	background-color: #FFFFFF;
+	
+	margin-bottom: 0px;
+}
+
+.sliderdiv{
+	margin-top: 0px;
+}
+
+#footer1{
+	background-color: #F0F4C3;
+}
+
+#footer2{
+	background-color: #CDDC39;
+	max-height: 60px;
+}
+
+#navigation-container{
+
+}
+
+#navbar-container{
+	margin-top: 25px;
+}
+
+.nav.nav-pills.navbar li a{
+	width: 150px;
+	background-color: #E53935;
+}
+
+#services-container{
+	margin-top: 10px;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+#services{
+	padding-left: 50px;
+	padding-top: 20px;
+}
+
+.padbottomtwenty{
+	padding-bottom: 20px;
+}
+
+
+.padbottomfifty{
+	padding-bottom: 50px;
+}
+
+
+.imgWrap {
+  position: relative;
+  height: 207px;
+  width: 260px;
+}
+
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+
+
+  visibility: hidden;
+  opacity: 0;
+
+  /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
